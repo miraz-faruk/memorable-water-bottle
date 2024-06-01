@@ -13,7 +13,7 @@ const Bottle = ({bottle, handleAddToCart}) => {
     );
 };
 
-Bottle.PropTypes = {
+Bottle.propTypes = {
     bottle: PropTypes.object.isRequired,
     handleAddToCart: PropTypes.func.isRequired
 }
